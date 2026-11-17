@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="Bebida fría de fresa">
+  <defs>
+    <linearGradient id="dBeb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5b6b"/>
+      <stop offset=".35" stop-color="#f42a45"/>
+      <stop offset=".7" stop-color="#c9102c"/>
+      <stop offset="1" stop-color="#8f0a1e"/>
+    </linearGradient>
+    <linearGradient id="dGlass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset=".25" stop-color="#fff" stop-opacity=".08"/>
+      <stop offset=".8" stop-color="#fff" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="dLid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#dfe6f2" stop-opacity=".85"/>
+    </linearGradient>
+    <linearGradient id="dStraw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff9bb0"/>
+      <stop offset=".5" stop-color="#e34464"/>
+      <stop offset="1" stop-color="#b81f3f"/>
+    </linearGradient>
+    <filter id="dSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="160" cy="274" rx="82" ry="16" fill="#03102e" opacity=".5" filter="url(#dSoft)"/>
+
+  <g transform="rotate(12 190 96)">
+    <rect x="182" y="34" width="17" height="150" rx="8" fill="url(#dStraw)" stroke="#a91c37" stroke-width="2"/>
+  </g>
+
+  <g>
+    <path d="M96 96 H226 L208 264 Q160 278 112 264 Z" fill="url(#dBeb)"/>
+    <path d="M96 96 H226 L208 264 Q160 278 112 264 Z" fill="url(#dGlass)"/>
+    <ellipse cx="161" cy="96" rx="65" ry="12" fill="#ff7a86"/>
+    <g fill="#fff" opacity=".18">
+      <ellipse cx="130" cy="140" rx="16" ry="10" transform="rotate(-18 130 140)"/>
+      <ellipse cx="186" cy="188" rx="14" ry="9" transform="rotate(16 186 188)"/>
+      <ellipse cx="142" cy="220" rx="12" ry="8" transform="rotate(-10 142 220)"/>
+    </g>
+    <g>
+      <rect x="112" y="176" width="100" height="40" rx="6" fill="#fffdf8" opacity=".94" transform="rotate(-1 162 196)"/>
+      <text x="162" y="203" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="17" font-weight="800" fill="#b3122b" letter-spacing="1">CAMPERO</text>
+    </g>
+  </g>
+
+  <g>
+    <path d="M92 92 q70 -30 138 0 q-4 14 -69 14 q-65 0 -69 -14 z" fill="url(#dLid)" stroke="#c8d2e2" stroke-width="2"/>
+    <ellipse cx="161" cy="90" rx="46" ry="9" fill="#eef3fa" opacity=".9"/>
+    <ellipse cx="161" cy="90" rx="10" ry="4" fill="#c8d2e2"/>
+  </g>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 380" width="320" height="380" role="img" aria-label="Pollito con traje de Santa señalando">
+  <defs>
+    <linearGradient id="qBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8e3"/>
+      <stop offset=".6" stop-color="#f9e6b8"/>
+      <stop offset="1" stop-color="#e6c988"/>
+    </linearGradient>
+    <linearGradient id="qCoat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e83a44"/>
+      <stop offset="1" stop-color="#a5101f"/>
+    </linearGradient>
+    <linearGradient id="qHat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f04b52"/>
+      <stop offset="1" stop-color="#9d0e1d"/>
+    </linearGradient>
+    <linearGradient id="qBeak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffc44d"/>
+      <stop offset="1" stop-color="#e07d12"/>
+    </linearGradient>
+    <filter id="qSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="160" cy="362" rx="82" ry="13" fill="#02081c" opacity=".55" filter="url(#qSoft)"/>
+
+  <!-- patas -->
+  <g stroke="#e8891a" stroke-width="9" stroke-linecap="round" fill="none">
+    <path d="M146 300 V330"/><path d="M176 300 V328"/>
+  </g>
+  <g fill="#f0992b">
+    <path d="M146 330 l-20 12 h40 z"/><path d="M176 328 l-20 12 h40 z"/>
+  </g>
+
+  <!-- cuerpo -->
+  <ellipse cx="162" cy="228" rx="62" ry="76" fill="url(#qBody)"/>
+  <path d="M104 262 q58 -30 116 0 q-6 46 -58 46 q-52 0 -58 -46 z" fill="url(#qCoat)"/>
+  <path d="M156 218 q6 20 2 40" stroke="#f6ddb0" stroke-width="4" opacity=".5" fill="none"/>
+  <rect x="104" y="256" width="118" height="14" rx="7" fill="#fffaf2"/>
+  <rect x="150" y="276" width="26" height="20" rx="5" fill="#2b1d10"/>
+  <rect x="156" y="282" width="14" height="8" rx="2" fill="#f5c542"/>
+  <path d="M164 276 v22" stroke="#fffaf2" stroke-width="3" opacity=".6"/>
+
+  <!-- ala saludando -->
+  <g>
+    <path d="M108 214 q-40 -30 -46 -70 q14 -6 22 4 q4 -26 18 -44 q10 12 6 34 q16 -8 26 4 q-10 12 -14 26 q10 6 6 22 q-6 18 -18 24 z" fill="#fff6df" stroke="#e6c988" stroke-width="3"/>
+    <g stroke="#e6c988" stroke-width="2.5" opacity=".8">
+      <path d="M78 152 q10 8 20 2"/><path d="M70 176 q10 8 20 2"/>
+    </g>
+  </g>
+  <!-- ala derecha -->
+  <path d="M214 226 q26 4 30 30 q-4 26 -30 22 q14 -22 0 -52 z" fill="#f7e5b9" stroke="#e0c084" stroke-width="3"/>
+
+  <!-- cabeza -->
+  <circle cx="168" cy="138" r="52" fill="url(#qBody)"/>
+  <g>
+    <ellipse cx="152" cy="132" rx="9" ry="11" fill="#fffefb"/>
+    <ellipse cx="188" cy="130" rx="9" ry="11" fill="#fffefb"/>
+    <circle cx="154" cy="134" r="5" fill="#1b1206"/>
+    <circle cx="190" cy="132" r="5" fill="#1b1206"/>
+    <circle cx="156" cy="132" r="1.8" fill="#fff"/>
+    <circle cx="192" cy="130" r="1.8" fill="#fff"/>
+    <path d="M142 114 q10 -7 20 -1" stroke="#a9760f" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M178 112 q10 -6 20 1" stroke="#a9760f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  <path d="M158 148 q14 -6 26 2 q-10 16 -26 8 z" fill="url(#qBeak)" stroke="#c46c0b" stroke-width="2"/>
+  <path d="M160 156 q10 6 20 2" stroke="#c46c0b" stroke-width="2" fill="none"/>
+  <circle cx="216" cy="150" r="9" fill="#ffd9c0" opacity=".6"/>
+
+  <!-- gorro de Santa -->
+  <path d="M120 100 q22 -34 58 -30 q28 4 34 26 q-46 14 -92 4 z" fill="#fffaf2"/>
+  <path d="M132 96 q10 -46 54 -56 q22 -6 20 16 q-4 24 14 30 q-46 22 -88 10 z" fill="url(#qHat)"/>
+  <path d="M204 36 q18 -8 22 8 q4 16 -14 20 q-14 2 -18 -10 q-2 -12 10 -18 z" fill="#fffaf2"/>
+  <path d="M132 96 q30 10 58 6" stroke="#8f0c19" stroke-width="3" fill="none" opacity=".4"/>
+</svg>
